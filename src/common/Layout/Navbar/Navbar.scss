@@ -1,0 +1,32 @@
+.ant-menu-title-content{
+    font-weight: 400;
+}
+.ant-menu-item:hover{
+        color:white;
+    svg{
+        color:white;
+    }
+}
+.ant-menu-light .ant-menu-item:hover, .ant-menu-light .ant-menu-item-active, .ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, .ant-menu-light .ant-menu-submenu-active, .ant-menu-light .ant-menu-submenu-title:hover{
+    color:white;
+    
+}
+.ant-menu-item-selected{
+    color:#5899BA;
+}
+
+.ant-menu{
+    
+    background-color: #5899BA;
+    color: white;
+}
+.ant-menu-submenu-selected{
+    color: white;
+
+}
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left{
+    border-right:0;
+}
+.ant-menu-sub.ant-menu-inline{
+    background-color: #5899BA !important;
+}

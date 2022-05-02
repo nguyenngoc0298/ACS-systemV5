@@ -1,0 +1,46 @@
+@import "../../../styles/variable.scss";
+.headerWrapper {
+  height: 3rem;
+  justify-content: space-between;
+  background-color: $color-header;
+  .title {
+    text-align: center;
+    width: 10%;
+    align-items: center;
+    display: flex;
+    padding-left: 1rem;
+    font-weight: bold;
+  }
+  .searchBox {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    input {
+      width: 50%;
+      padding: 0.5rem 2rem;
+      border-radius: 0.5rem;
+      border: 1px solid #ccc;
+    }
+  }
+  .boxAvt {
+    width: 17%;
+    align-items: center;
+    display: flex;
+    img {
+      height: 70%;
+      object-fit: contain;
+      margin-right: 1rem;
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+
+      Button {
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import "../../styles/variable.scss";
+.headerWrapper{
+    display: flex;
+    height: auto;
+    .boxMenu{
+        width: 20%;
+        height: auto;
+        background-color: $color-primary-1;
+    }
+    .boxMain{
+        width: 80%;
+        height: auto;
+        background-color: $color-pink;
+    }
+}

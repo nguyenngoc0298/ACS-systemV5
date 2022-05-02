@@ -1,0 +1,29 @@
+.table{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    border-radius: 3px;
+    table{
+        width: 100%;
+        tr{
+            width: 100%;
+            font-weight: bold;
+           
+        } 
+        
+    }
+    .btn-addtho{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        transform: translateY(-30px);
+    }
+    .btn-xacnhan{
+        width: 10%;
+        margin: 0 auto;
+        button{
+            margin: 0.5rem;
+        }
+    }
+}
+
